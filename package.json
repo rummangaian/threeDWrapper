@@ -1,0 +1,14 @@
+{
+  "name": "threedwrapperlib",
+  "version": "1.0.0",
+  "description": "This is a wrapper lib to render nodes and edges in 3d \"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "threedWrapper"
+  ],
+  "author": "Rumman",
+  "license": "ISC"
+}
