@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>3D Graph Demo</title>
+    <style>
+      #graph-container {
+        width: 800px;
+        height: 600px;
+        border: 1px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="graph-container"></div>
+
+    <script type="module">
+      import { ThreeDWrapper } from './dist/ThreeD.js';
+
+      const data = {
+        nodes: [
+          { id: 1, name: 'Node 1' },
+          { id: 2, name: 'Node 2' },
+        ],
+        edges: [
+          { source: 1, target: 2 },
+        ],
+      };
+
+      const config = {
+        width: 800,
+        height: 600,
+      };
+
+      const graph = new ThreeDWrapper();
+      graph.renderGraph('graph-container', data, config);
+    </script>
+  </body>
+</html>
