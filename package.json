@@ -10,5 +10,8 @@
     "threedWrapper"
   ],
   "author": "Rumman",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "3d-force-graph": "^1.79.0"
+  }
 }
